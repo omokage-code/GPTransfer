@@ -1,0 +1,15 @@
+.DS_Store
+
+# Swift build output
+.build/
+
+# Local app bundles and release artifacts
+dist/
+*.zip
+*.dmg
+
+# Local development notes and design drafts
+AGENTS.md
+local-notes/
+local-design/
+
