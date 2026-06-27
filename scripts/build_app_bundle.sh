@@ -44,7 +44,7 @@ cat > "$CONTENTS_DIR/Info.plist" <<PLIST
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1.0</string>
+    <string>0.1.1</string>
     <key>CFBundleVersion</key>
     <string>1</string>
     <key>LSMinimumSystemVersion</key>
@@ -59,5 +59,10 @@ cat > "$CONTENTS_DIR/Info.plist" <<PLIST
 </dict>
 </plist>
 PLIST
+
+xattr -cr "$APP_DIR"
+codesign --force --sign - "$MACOS_DIR/$HELPER_EXECUTABLE_NAME"
+codesign --force --sign - "$MACOS_DIR/$EXECUTABLE_NAME"
+codesign --force --sign - "$APP_DIR"
 
 echo "$APP_DIR"
