@@ -83,6 +83,14 @@ Compatibility is determined by the connection mode and exposed media interface, 
 - A GoPro camera that exposes media through the local GoPro media interface
 - USB or local network connectivity between the Mac and the camera
 
+## Download
+
+Download the latest release from the official release page:
+
+[Latest GPTransfer release](https://github.com/omokage-code/GPTransfer/releases/latest)
+
+Use `v0.1.1` or later. The first `v0.1.0` package was superseded by `v0.1.1` because macOS could incorrectly report the downloaded app as damaged.
+
 ## Build
 
 ```bash
@@ -99,12 +107,21 @@ dist/GPTransfer.app
 
 The first public builds of GPTransfer may be unsigned and not notarized.
 
-If macOS blocks the app after download:
+If macOS says the app cannot be opened because Apple cannot check it for malicious software, this is expected for the unsigned GitHub build.
+
+To open the app:
 
 1. Open Finder.
 2. Control-click or right-click `GPTransfer.app`.
 3. Choose `Open`.
 4. Choose `Open` again if macOS asks for confirmation.
+
+If macOS still blocks the app:
+
+1. Open `System Settings`.
+2. Open `Privacy & Security`.
+3. Find the GPTransfer warning near the bottom.
+4. Choose `Open Anyway`.
 
 Only open builds downloaded from the official project release page.
 
