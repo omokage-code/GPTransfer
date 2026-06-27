@@ -158,7 +158,8 @@ GPTransfer is free and open source. If you find it useful, please consider suppo
 
 If GPTransfer helps your workflow, you can support development here:
 
-[buymeacoffee.com/omokage](https://buymeacoffee.com/omokage)
+- [GitHub Sponsors](https://github.com/sponsors/omokage-code)
+- [Buy Me a Coffee](https://buymeacoffee.com/omokage)
 
 ## License
 
