@@ -69,6 +69,16 @@ Currently in scope:
 - GoPro HERO-family cameras and similar GoPro models that expose the local GoPro media interface
 - GoPro connection modes where the Mac receives a local camera network address and the app can load the media list
 
+Tested cameras:
+
+- GoPro HERO11
+- GoPro HERO12
+- GoPro HERO13
+- GoPro MAX2
+- GoPro MISSION 1 PRO
+
+Compatibility may still vary depending on camera settings, firmware, shooting mode, and connection mode.
+
 Currently out of scope:
 
 - GoPro Lit
